@@ -33,6 +33,18 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
+.product-image-fluid{
+  max-width: 10%;
+  height: auto;
+}
+
+@media (max-width: 991px) {
+  .product-image-fluid{
+    max-width: 30%;
+    height: auto;
+  }
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -235,6 +247,12 @@ h6 {
   }
 }
 
+@media (max-width: 991px) {
+  .logo{
+    width: 80%;
+    height: auto;
+  }
+}
 /**
 * Mobile Navigation 
 */
@@ -1525,6 +1543,10 @@ section {
 
 .blog .entry .entry-content p {
   line-height: 24px;
+}
+
+.blog .entry .entry-content span {
+  font-weight: bold;
 }
 
 .blog .entry .entry-content .read-more {
