@@ -1,1 +1,1 @@
-# analytix-new
+# auto-analytix
